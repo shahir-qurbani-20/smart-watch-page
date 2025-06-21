@@ -10,6 +10,7 @@ body{
     display: flex;
     padding: 20px 0px;
     justify-content: space-between;
+    box-shadow: 0px 10px 80px #d7d7d7;
 }
 .list-header{
     display: flex;
@@ -105,8 +106,7 @@ body{
     
 }
 .slid-one-left{
-    width: 50%;
-    border-top: 1px solid black;
+    width: 880px;
     padding-left: 15px;
 }
 .slid-one-left h4{
@@ -114,7 +114,6 @@ body{
     color: #898989;
     font-size: 44px;
     font-weight: 100;
-    /* word-spacing: 16px; */
 }
 .slid-one-left h1{
     margin-top: 35px;
@@ -129,8 +128,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .slid-one-right{
-    width: 50%;
-    background-color: gray;
+    position: relative;
+    width: 1030px;
+    height: fit-content;
+    overflow: hidden;
 }
 .slid-one-buttons{
     display: flex;
@@ -164,4 +165,25 @@ body{
     border: none;
     transition: 0.8s;
     color: #fff;
+}
+.img-shape4{
+    height: auto;
+    width: 800px;
+    margin-top: 350px;
+    margin-left: -20px;
+}
+.img-shape1{
+    height: auto;
+    width: 850px;
+    position: absolute;
+    right: -200px;
+    top: 50px;
+}
+.slide-2{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    height: auto;
+    width: 1000px;
+
 }
