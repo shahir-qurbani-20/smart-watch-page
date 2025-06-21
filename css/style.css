@@ -185,5 +185,70 @@ body{
     top: 250px;
     height: auto;
     width: 1000px;
-
+}
+/* start slide 2  */
+.second-slide{
+    margin-top: 600px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.features{
+    position: relative;
+    height: auto;
+    width: 870px;
+    margin-left: 512px;
+}
+.performance{
+    position: absolute;
+    margin-top: 60px;
+    text-align: right;
+    margin-left: 90px;
+    height: 200px;
+    z-index: 3;
+}
+.battery{
+    position: absolute;
+    margin-top: 330px;
+    text-align: right;
+    z-index: 3;
+    margin-left: 140px;
+}
+.link{
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 90px;
+    height: 200px;
+    text-align: right;
+    z-index: 3;
+}
+.calender{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+.price{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 40px;
+}
+.watch{
+    position: absolute;
+    margin-top: 610px;
+    margin-left: -20px;
+}
+.performance p , h3 ,.battery p , h3 , .link p , h3 , .calender p , h3 , .price p , h3 , .watch p , h3{
+    font-size: 30px;
+}
+.icon-slide2-right{
+    margin-right: 20px;
+    height: auto;
+    width: 75px;
+    margin-bottom: 20px;
+}
+.icon-slide2{
+    height: auto;
+    width: 65px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
