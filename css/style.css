@@ -31,6 +31,15 @@ body{
     font-size: 22px;
     letter-spacing: 1.8px;
     word-spacing: 3px;
+    cursor: pointer;
+}
+.el-button_header:hover{
+    background-color: #08f;
+    border: none;
+    transition: 0.5s;
+}
+.el-left_header{
+    margin-top: 16px;
 }
 .el-left_header img{
     height: auto;
@@ -88,4 +97,71 @@ body{
     right: 0px;
     width: 25px;
     height: 25px;
+}
+.slid-one {
+    display: flex;
+    margin-top: 100px;
+    height: 800px;
+    
+}
+.slid-one-left{
+    width: 50%;
+    border-top: 1px solid black;
+    padding-left: 15px;
+}
+.slid-one-left h4{
+    margin-top: 250px;
+    color: #898989;
+    font-size: 44px;
+    font-weight: 100;
+    /* word-spacing: 16px; */
+}
+.slid-one-left h1{
+    margin-top: 35px;
+    font-size: 105px;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slid-one-left h2{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slid-one-right{
+    width: 50%;
+    background-color: gray;
+}
+.slid-one-buttons{
+    display: flex;
+    gap: 40px;
+}
+.slid-one-buttons button{
+    width: 275px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.purchase-now{
+    background-color: #08f;
+    border: none;
+    color: #fff;
+}
+.purchase-now:hover{
+    background-color: #000;
+    transition: 0.8s;
+}
+.watch-video{
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;
+    font-weight: 520;
+}
+.watch-video:hover{
+    background-color: #08f;
+    border: none;
+    transition: 0.8s;
+    color: #fff;
 }
