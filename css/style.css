@@ -252,3 +252,49 @@ body{
     margin-left: 20px;
     margin-bottom: 20px;
 }
+/* start third slide */
+.third-slide{
+    margin-top: 100px;
+    width: 100%;
+    height: max-content;
+}
+.img-third-slide{
+    margin: 0px 50px;
+    height:970px;
+    width: 1790px;
+    color: #fff;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgb(12 12 12 / .7), rgb(12 12 12 / .7)), url(../images/box-bg-1.jpg);
+    padding: 180px 180px 100px;
+    border-radius: 110px;
+}
+.top-shadow div{
+    background-color: #f2f2f2;
+    width: 1420px;
+    height: 60px;
+    margin-left: 240px;
+    border-radius: 100px 100px 0 0;
+}
+.bottom-shadow{
+    background-color: #f2f2f2;
+    width: 1420px;
+    height: 60px;
+    margin-left: 240px;
+    border-radius: 0 0 100px 100px;
+}
+.txt-third-slide1{
+    text-align: center;
+    height: 160px;
+}
+.txt-third-slide1 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.txt-third-slide2{
+    text-align: center;
+    height: 230px;
+}
+.txt-third-slide3{
+    background-color: beige;
+    height: 340px;
+}
