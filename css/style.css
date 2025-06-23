@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 .header-home{
     display: flex;
@@ -240,6 +241,9 @@ body{
 .performance p , h3 ,.battery p , h3 , .link p , h3 , .calender p , h3 , .price p , h3 , .watch p , h3{
     font-size: 30px;
 }
+.performance p  ,.battery p , .link p , .calender p , .price p , .watch p {
+    color: #898989;
+}
 .icon-slide2-right{
     margin-right: 20px;
     height: auto;
@@ -257,6 +261,7 @@ body{
     margin-top: 100px;
     width: 100%;
     height: max-content;
+    overflow: hidden;
 }
 .img-third-slide{
     margin: 0px 50px;
@@ -287,14 +292,117 @@ body{
     height: 160px;
 }
 .txt-third-slide1 h1{
-    font-size: 40px;
+    font-size: 62px;
     font-weight: 700;
 }
 .txt-third-slide2{
     text-align: center;
-    height: 230px;
+    height: 215px;
+}
+.txt-third-slide2 p{
+    font-size: 28px;
 }
 .txt-third-slide3{
-    background-color: beige;
-    height: 340px;
+    height: 320px;
+    display: flex;
+    gap: 0px;
+}
+.water-proof{
+    margin: 0px;
+    margin-left: auto !important;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+.water-proof div{
+    border-radius: 100%;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.water-proof h3{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.battery-life{
+    margin: 0px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+.battery-life div{
+    border-radius: 100%;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.battery-life h3{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.alarm{
+    margin: 0px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+.alarm div{
+    border-radius: 100%;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alarm h3{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.weather{
+    margin: 0px;
+    margin-right: auto !important;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+.weather div{
+    border-radius: 100%;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather h3{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.img-shape2{
+    position: absolute;
+    right: -540px;
+    top: 2250px;
+    z-index: -3;
+}
+.img-shape5{
+    position: absolute;
+    left: -430px;
+    top: 3000px;
+    z-index: -3;
+    
 }
