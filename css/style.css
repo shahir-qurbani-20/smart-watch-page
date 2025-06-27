@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @keyframes spin {
@@ -15,7 +14,6 @@
         transform: rotateY(360deg);
     }
 }
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -32,23 +30,19 @@ body {
     align-items: center;
     box-shadow: 0px 10px 80px #d7d7d7;
 }
-
 .list-header {
     display: flex;
     list-style-type: none;
 }
-
 .list-header li {
     margin-right: 20px;
 }
-
 .list-header li a {
     text-decoration: none;
     font-size: 16px;
     color: #a3a3a3;
     font-weight: 500;
 }
-
 .el-button_header {
     background-color: #000;
     color: #fff;
@@ -60,31 +54,26 @@ body {
     cursor: pointer;
     border: none;
 }
-
 .el-button_header:hover {
     background-color: #08f;
     border: none;
     transition: 0.5s;
 }
-
 .el-left_header img {
     height: auto;
     width: 185px;
     margin-right: 50px;
 }
-
 .home-header {
     color: #000 !important;
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
     padding: 18px 0 !important;
 }
-
 .link-header {
     margin: 0px 20px;
     padding: 10px 0px 15px;
 }
-
 .link-header :hover {
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
@@ -92,7 +81,6 @@ body {
     padding: 18px 0;
     transition: 0.3s;
 }
-
 .el-right_header {
     display: flex;
     justify-content: space-between;
@@ -101,7 +89,6 @@ body {
     margin-right: 20px;
     height: 80px;
 }
-
 .portfolio {
     display: flex;
     justify-content: center;
@@ -112,12 +99,10 @@ body {
     border-radius: 100%;
     position: relative;
 }
-
 .fas {
     font-size: 25px;
     color: #000;
 }
-
 .z-port {
     background-color: red;
     color: #fff;
@@ -133,52 +118,44 @@ body {
     width: 21px;
     height: 21px;
 }
-
 .slid-one {
     width: 1265px;
     display: flex;
     margin-top: 100px;
     height: 800px;
 }
-
 .slid-one-left {
     width: 880px;
     padding-left: 10px;
 }
-
 .slid-one-left h4 {
     margin-top: 167px;
     color: #898989;
     font-size: 24px;
     font-weight: 400;
 }
-
 .slid-one-left h1 {
     margin-top: 24px;
     font-size: 60px;
     font-weight: 300;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .slid-one-left h2 {
     margin-top: 14px;
     font-size: 56px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .slid-one-right {
     position: relative;
     width: 920px;
     height: fit-content;
     overflow: hidden;
 }
-
 .slid-one-buttons {
     display: flex;
     gap: 40px;
 }
-
 .slid-one-buttons button {
     width: 185px;
     height: 54px;
@@ -187,39 +164,33 @@ body {
     cursor: pointer;
     margin-top: 100px;
 }
-
 .purchase-now {
     background-color: #08f;
     border: none;
     color: #fff;
 }
-
 .purchase-now:hover {
     background-color: #000;
     transition: 0.8s;
 }
-
 .watch-video {
     background-color: #fff;
     border: 1px solid black;
     color: #000;
     font-weight: 520;
 }
-
 .watch-video:hover {
     background-color: #08f;
     border: none;
     transition: 0.8s;
     color: #fff;
 }
-
 .img-shape4 {
     height: auto;
     width: 500px;
     margin-top: 240px;
     margin-left: -20px;
 }
-
 .img-shape1 {
     height: auto;
     width: 600px;
@@ -227,7 +198,6 @@ body {
     right: -150px;
     top: 30px;
 }
-
 .slide-2 {
     position: absolute;
     right: 10px;
@@ -235,7 +205,6 @@ body {
     height: auto;
     width: 645px;
 }
-
 /* start slide 2  */
 .second-slide {
     margin-top: 50px;
@@ -244,14 +213,12 @@ body {
     width: 1200px;
     perspective: 1000px;
 }
-
 .features {
     position: relative;
     height: auto;
     width: 583px;
     margin-left: 343px;
 }
-
 .performance {
     position: absolute;
     margin-top: 28px;
@@ -260,7 +227,6 @@ body {
     height: 134px;
     z-index: 3;
 }
-
 .battery {
     position: absolute;
     margin-top: 220px;
@@ -268,7 +234,6 @@ body {
     z-index: 3;
     margin-left: 94px;
 }
-
 .link {
     position: absolute;
     margin-top: 410px;
@@ -277,25 +242,21 @@ body {
     text-align: right;
     z-index: 3;
 }
-
 .calender {
     position: absolute;
     margin-top: 27px;
     margin-left: -20px;
 }
-
 .price {
     position: absolute;
     margin-top: 220px;
     margin-left: 27px;
 }
-
 .watch {
     position: absolute;
     margin-top: 410px;
     margin-left: -13px;
 }
-
 .performance p,
 h3,
 .battery p,
@@ -310,7 +271,6 @@ h3,
 h3 {
     font-size: 20px;
 }
-
 .performance p,
 .battery p,
 .link p,
@@ -336,7 +296,6 @@ h3 {
     transition: transform 0.6s ease-in-out;
     transform-style: preserve-3d;
 }
-
 .icon-slide2-right:hover div {
     animation: spin 0.6s linear;
     transform: rotateY(360deg);
@@ -358,7 +317,6 @@ h3 {
     animation: spin 0.6s linear;
     transform: rotateY(360deg);
 }
-
 /* start third slide */
 .third-slide {
     margin-top: 68px;
@@ -366,7 +324,6 @@ h3 {
     height: max-content;
     overflow: hidden;
 }
-
 .img-third-slide {
     margin: 0px 34px;
     height: 650px;
@@ -377,7 +334,6 @@ h3 {
     padding: 120px 120px 66px;
     border-radius: 68px;
 }
-
 .top-shadow div {
     background-color: #f2f2f2;
     width: 950px;
@@ -385,7 +341,6 @@ h3 {
     margin-left: 160px;
     border-radius: 70px 70px 0 0;
 }
-
 .bottom-shadow {
     background-color: #f2f2f2;
     width: 950px;
