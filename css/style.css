@@ -210,7 +210,7 @@ body {
     margin-top: 50px;
     position: relative;
     display: flex;
-    width: 1200px;
+    width: 1265px;
     perspective: 1000px;
 }
 .features {
@@ -278,6 +278,7 @@ h3 {
 .price p,
 .watch p {
     color: #898989;
+    font-size: 16px !important;
 }
 .icon-slide2-right{
     height: 60px;
@@ -320,7 +321,7 @@ h3 {
 /* start third slide */
 .third-slide {
     margin-top: 68px;
-    width: 1180x;
+    width: 1265px;
     height: max-content;
     overflow: hidden;
 }
@@ -675,4 +676,82 @@ h3 {
 .button-card-4 i{
     color: #fff;
     font-size: 16px;
+}
+.slide-five{
+    display: flex;
+    width: 1265px;
+    margin-top: 250px;
+    justify-content: center;
+}
+.slide-five-left{
+    /* background-color: #0088ff; */
+    width: 580px;
+}
+.slide-five-left h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #08f;
+}
+.slide-five-left h1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.slide-five-left p{
+    margin-top: 26px;
+    margin-left: 10px;
+    color: #a3a3a3;
+    font-size: 20px;
+    line-height: 36px;
+}
+.profile-5{
+    width: 300px;
+    height: 100px;
+    display: flex;
+}
+.prof-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.prof-pic img{
+    width: auto;
+    height: 80px;
+}
+.prof-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.prof-txt h2{
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+.prof-txt p{
+    font-size: 16px;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+.slide-five-right{
+    width: 600px;
+}
+.img-5-man{
+    position: relative;
+    height: 460px;
+    width: auto;
+    float: right;
+    border-radius: 10px;
+}
+.img-5-watch{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+    height: auto;
+    width: 300px;
 }
