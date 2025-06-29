@@ -755,3 +755,88 @@ h3 {
     height: auto;
     width: 300px;
 }
+.slide-6{
+    margin-top: 300px;
+    width: 1265px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-shadow-6{
+    background-color: #f2f2f2;
+    width: 950px;
+    height: 40px;
+    border-radius: 70px 70px 0 0;
+}
+.img-slide-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 34px;
+    height: 465px;
+    width: 1200px;
+    color: #fff;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgb(12 12 12 / .7), rgb(12 12 12 / .7)), url(../images/box-bg.jpg);
+    padding: 100px 120px 66px;
+    border-radius: 80px;
+}
+.title-slide-6{
+    font-size: 23px;
+    font-weight: 470;
+    margin-bottom: 50px;
+}
+.txt-slide-6{
+    font-size: 18px;
+    color: #a3a3a3;
+    text-align: center;
+    line-height: 32px;
+}
+.buttons-slide-6 button{
+    height: 54px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 65px;
+}
+.purchase-now-6{
+    width: 180px;
+    margin-left: 60px;
+    transition: 0.3s;
+    border: 1px solid #fff;
+}
+.purchase-now-6:hover{
+    background-color: #08f;
+    color: #fff;
+    border: 1px solid #08f;
+}
+.Nearby-store{
+    font-size: 16px;
+    width: 240px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+}
+.Nearby-store:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+.Nearby-store:hover i{
+    -webkit-text-stroke: 1px #000;
+    transition: 0.3s;
+}
+.outline-marker{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.bottom-shadow-6{
+    background-color: #f2f2f2;
+    width: 950px;
+    height: 40px;
+    border-radius:0 0 70px 70px;
+}
