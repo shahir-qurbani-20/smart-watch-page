@@ -840,3 +840,138 @@ h3 {
     height: 40px;
     border-radius:0 0 70px 70px;
 }
+.footer-home-div{
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f2f6;
+    padding: 60px 15px;
+    height: 350px;
+    margin-top: 125px;
+    border-radius: 70px 70px 0 0;
+}
+.footer-first{
+    height: 230px;
+    width: 620px;
+    margin-left: 30px;
+}
+.footer-first img{
+    width: auto;
+    height: 26px;
+}
+.footer-first p{
+    margin-top: 20px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #898989;
+}
+.social-media-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    height: 45px;
+}
+.social-media-footer a{
+    color: #000;
+    text-decoration: none;
+}
+.twitter-footer , .instagram-footer , .pinterest-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    border: 1px solid #d7d7d7;
+}
+.twitter-footer:hover{
+    background-color: #1da1f2;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+.instagram-footer:hover{
+    color: #fff;
+    transition: all .2s ease-in-out;
+    background: radial-gradient(circle at 30% 107%, 
+    #fdf497 0%, #fdf497 5%, 
+    #fd5949 45%, 
+    #d6249f 60%, 
+    #285AEB 90%);
+}
+.pinterest-footer:hover{
+    color: #fff;
+    transition: all .2s ease-in-out;
+    background-color: #e60023;
+}
+.last-txt{
+    font-size: 14px !important;
+    margin-top: 40px !important;
+}
+.footer-home ul{
+    list-style-type:none;
+    margin-top: 40px;
+}
+.footer-home li{
+    margin-top: 6px;
+}
+.footer-home li a:hover{
+    color: #08f;
+}
+.footer-home ul a{
+    text-decoration: none;
+    color: #898989;
+}
+.footer-menu{
+    height: 230px;
+    width: 200px;
+}
+.footer-support{
+    height: 230px;
+    width: 200px;
+}
+.footer-last{
+    width: 200px;
+    height: 230px;
+
+}
+.enter-email{
+    border-radius: 20px;
+    height: 42px;
+    margin-top: 35px;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+    padding-left: 20px;
+}
+.subscribe-footer{
+    height:40px ;
+    width: 120px;
+    color: #fff;
+    background-color: #000;
+    margin-top: 10px;
+    border-radius: 40px;
+    font-weight: 600;
+    border: none;
+}
+.footer-last p{
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 80px;
+}
+.footer-last p a i{
+    color: #000 ;
+}
+.footer-last p a:hover i{
+    color: #08f ;
+}
+.footer-last p a{
+    text-decoration: none;
+    color: #898989;
+}
+.footer-last p a:hover{
+    color: #08f;
+}
+.enter-email:focus{
+    border: 1px solid #1da1f2;
+}
